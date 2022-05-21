@@ -26,7 +26,7 @@ searchBar.addEventListener('keyup', (e) => {
 
 const loadCharacters = async () => {
     try {
-        const res = await fetch('https://gomhaku.github.io/characters.json');
+        const res = await fetch('https://gopagipets.github.io/characters.json');
         gpCharacters = await res.json();
        
     } catch (err) {
